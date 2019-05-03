@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f5f4;
+  font-family: "Oswald", sans-serif;
+}
+
+.speakers {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 50% 50% 5% 50%;
+  box-shadow: 5px 5px 5px #afb3b2;
+}
+
+.speaker-container {
+  grid-area: "speakers";
+  display: flex;
+  flex-grow: 1;
+  margin: 40px;
+  justify-content: left;
+  align-items: flex-end;
+  width: 350px;
+  justify-self: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speaker-info {
+  justify-content: center;
+  align-content: flex-end;
+  margin: 0 10px;
+  padding: 0;
+  color: #1a1a1d;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  color: #ff6f61;
+  letter-spacing: 0.8em;
+}
+
+h2 {
+  width: auto;
+  font-size: 1.5em;
+  margin-bottom: -10px;
+}
+
+p {
+  font-style: italic;
+  font-size: 0.8em;
+}
